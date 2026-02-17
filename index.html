@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>maciver — builder</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%230a0a0a'/><text x='50' y='72' font-size='60' font-family='system-ui' font-weight='700' fill='%23f0f0f0' text-anchor='middle'>m</text></svg>">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="maciver — builder">
+    <meta property="og:description" content="I like building things. Here's some of what I've been working on.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://maciver.xyz">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="maciver — builder">
+    <meta name="twitter:description" content="I like building things. Here's some of what I've been working on.">
+
+    <meta name="description" content="maciver's portfolio — projects, tools, and things I've been building.">
+    <meta name="theme-color" content="#0a0a0a">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="page">
+
+        <header class="profile">
+            <img src="avatar.jpg" alt="maciver" class="profile-avatar">
+            <h1 class="profile-name">maciver</h1>
+            <p class="profile-bio">I like building things. Here's some of what I've been working on.</p>
+        </header>
+
+        <p class="section-label">Projects</p>
+
+        <div class="projects">
+
+            <a href="https://github.com/m-maciver/split-the-g" target="_blank" rel="noopener" class="project-card">
+                <div class="project-header">
+                    <div class="project-icon beer">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 8h1a4 4 0 1 1 0 8h-1"></path><path d="M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4Z"></path><line x1="6" y1="2" x2="6" y2="4"></line><line x1="10" y1="2" x2="10" y2="4"></line><line x1="14" y1="2" x2="14" y2="4"></line></svg>
+                    </div>
+                    <div>
+                        <div class="project-title">Split the G</div>
+                        <div class="project-subtitle">Multiplayer drinking game</div>
+                    </div>
+                </div>
+                <p class="project-description">
+                    A 1v1 Guinness challenge — drink your pint and try to stop the liquid exactly at the G logo.
+                    Your phone camera checks how accurate you were. Closest to the line wins.
+                </p>
+                <div class="project-arrow">
+                    Check it out
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+                </div>
+            </a>
+
+            <div class="project-card no-link">
+                <div class="project-header">
+                    <div class="project-icon chart">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+                    </div>
+                    <div>
+                        <div class="project-title">Polymarket Bot</div>
+                        <div class="project-subtitle">Automated crypto trading</div>
+                    </div>
+                </div>
+                <p class="project-description">
+                    A bot that trades on Polymarket's short-term Bitcoin prediction markets.
+                    It watches price momentum and places trades in the final minutes before a market closes.
+                    Comes with a full dashboard to monitor everything live.
+                </p>
+                <div class="project-access">
+                    <span class="access-label">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+                        Private — request access to use it
+                    </span>
+                    <div class="access-buttons">
+                        <a href="sms:+61424244467?body=Hey%2C%20I%27m%20interested%20in%20the%20Polymarket%20Bot" class="btn-access">
+                            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+                            Text me
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <a href="https://github.com/m-maciver/openclaw-mission-control" target="_blank" rel="noopener" class="project-card">
+                <div class="project-header">
+                    <div class="project-icon ai">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 8V4H8"/><rect x="8" y="2" width="8" height="4" rx="1"/><rect x="4" y="8" width="16" height="12" rx="2"/><path d="M2 14h2"/><path d="M20 14h2"/><circle cx="9" cy="13" r="1"/><circle cx="15" cy="13" r="1"/><path d="M10 17h4"/></svg>
+                    </div>
+                    <div>
+                        <div class="project-title">OpenClaw</div>
+                        <div class="project-subtitle">Plug-and-play AI workforce</div>
+                    </div>
+                </div>
+                <p class="project-description">
+                    A team of 5 autonomous AI agents — manager, researcher, writer, coder, and executor —
+                    that run in the background via Telegram. Plug it into any business and they handle
+                    tasks on their own, polling every 30–60 minutes.
+                </p>
+                <div class="project-arrow">
+                    Check it out
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+                </div>
+            </a>
+
+        </div>
+
+        <!-- Links -->
+        <p class="section-label">Links</p>
+
+        <div class="socials">
+            <a href="https://github.com/m-maciver" target="_blank" rel="noopener" class="social-link">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                GitHub
+            </a>
+            <a href="https://t.me/" target="_blank" rel="noopener" class="social-link">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.2 4.6 2.5 11.1c-.7.3-.7.8 0 1l4.8 1.5 1.8 5.8c.2.6.3.7.7.3l2.6-2.6 5.1 3.8c.9.6 1.6.3 1.8-.8L22.7 5.7c.3-1.2-.5-1.7-1.5-1.1z"/><path d="m8.3 13.2 9.6-7.8"/></svg>
+                Telegram
+            </a>
+        </div>
+
+        <footer class="footer">
+            <p>&copy; 2026 maciver</p>
+        </footer>
+
+    </div>
+</body>
+</html>
