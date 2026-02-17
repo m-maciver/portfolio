@@ -1,26 +1,25 @@
 # Portfolio Site - To Do
 
-## Hosting
-- [ ] Deploy to a hosting service (Netlify, Vercel, or GitHub Pages)
-- [x] Get a custom domain — maciver.xyz
+## Done
+- [x] Set up GitHub Pages + custom domain (maciver.xyz)
+- [x] Add project cards (Split the G, Polymarket Bot, OpenClaw)
+- [x] Favicon, Open Graph meta tags, meta description, theme-color
+- [x] Telegram link in Links section
+- [x] Copyright 2026
+- [x] Mobile responsive styles
+- [x] Clean up copy — direct, no fluff
 
 ## Content
-- [x] Add more projects (Desktop Widgets, OpenClaw, Mission Control)
-- [ ] Add a screenshot or demo GIF for Split the G
-- [ ] Add a screenshot of the Polymarket Bot dashboard
-- [ ] Add screenshots for Desktop Widgets and OpenClaw
+- [ ] Add screenshot or demo GIF for Split the G
+- [ ] Add screenshot of the Polymarket Bot dashboard
+- [ ] Add screenshot or demo for OpenClaw
+- [ ] Add og:image for social sharing previews
 
 ## Features
-- [ ] Add an Instagram link to the Links section (need handle)
-- [ ] Add any other socials (Twitter/X, LinkedIn, etc.)
-- [x] Add a "Currently building" section
-- [x] Add Telegram to Links section
+- [ ] Add Instagram link (need handle)
+- [ ] Add other socials (Twitter/X, LinkedIn, etc.)
+- [ ] Fill in Telegram link (currently placeholder https://t.me/)
 
 ## Polish
-- [x] Add favicon (SVG "m" icon)
-- [x] Add Open Graph meta tags (og:title, og:description, og:url, twitter:card)
-- [x] Add meta description and theme-color
-- [x] Update copyright to 2026
-- [x] Mobile responsive styles for new sections
 - [ ] Test on mobile (especially the SMS link)
-- [ ] Add og:image (screenshot of the site for social sharing previews)
+- [ ] Consider adding a live demo link for Split the G (currently points to GitHub)
